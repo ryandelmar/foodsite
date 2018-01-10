@@ -1,0 +1,144 @@
+<html>
+  <head>
+    <style>
+      .title1 {
+        background-color: white;
+        color: blue;
+        float: left;
+        font-size: 40px;
+      }
+      .title2 {
+        background-color: white;
+        color: red;
+        float: left;
+        font-size: 40px;
+      }
+      .title3 {
+        background-color: white;
+        color: red;
+        float: left;
+        font-size: 40px;
+        width: 1087px;
+      }
+      .input {
+        width: 40px;
+        height: 20px;
+      }
+      .meal1 {
+        background-image: url("https://foremangrillrecipes.com/wp-content/uploads/2013/05/american-hamburger-foreman-grill.jpg");
+        background-size: cover;
+        height: 300px;
+        width: 500px;
+        float: left;
+        font-size: 30px;
+        color: white;
+        text-align: center;
+      }
+      .meal2 {
+        background-image: url("https://cms.splendidtable.org/sites/default/files/styles/w2000/public/french-fries.jpg?itok=FS-YwUYH");
+        background-size: cover;
+        height: 300px;
+        width: 500px;
+        float: left;
+        font-size: 30px;
+        color: red;
+        text-align: center;
+      }
+      .meal3 {
+        background-image: url("https://backpackerlee.files.wordpress.com/2015/07/usfastfood.jpg?w=1280&amp;h=960&amp;crop=1");
+        background-size: cover;
+        height: 300px;
+        width: 500px;
+        float: left;
+        font-size: 30px;
+        color: blue;
+        text-align: center;
+      }
+      .meal4 {
+        background-image: url("https://www.barbarabakes.com/wp-content/upLoads/2013/04/Margherita-Pizza-Barbara-Bakes.jpg");
+        background-size: cover;
+        height: 300px;
+        width: 500px;
+        float: left;
+        font-size: 30px;
+        color: white;
+        text-align: center;
+      }
+      .meal5 {
+        background-image: url("http://finedininglovers.cdn.crosscast-system.com/BlogPost/l_4602_StockFood-00389909.jpg");
+        background-size: cover;
+        height: 300px;
+        width: 500px;
+        float: left;
+        font-size: 30px;
+        color: red;
+        text-align: center;
+      }
+      .meal6 {
+        background-image: url("https://fthmb.tqn.com/sHI14VwgA58daPo0TSY-ishRJk8=/2122x1415/filters:fill(auto,1)/172192393-56a20fea3df78cf7727188b7.jpg");
+        background-size: cover;
+        height: 300px;
+        width: 500px;
+        float: left;
+        font-size: 30px;
+        color: blue;
+        text-align: center;
+      }
+      .done {
+        height: 100px;
+        width: 1500px;
+        float: left;
+        text-align: center;
+      }
+      button {
+        background-color: #4286f4;
+        border: 0px;
+      }
+      .button2 {
+        height: 40px;
+        width: 800px;
+        font-size: 30px;
+      }
+    </style>
+      <script src="restaurant.js"></script>
+  </head>
+  <body background="http://blogs.smithsonianmag.com/smartnews/files/2013/06/06_13_2013_us-flag.gif">
+    <div class="title1">Ryan's</div>
+    <div class="title2">All-American</div>
+    <div class="title1">Diner</div>
+    <div class="title3">To-Go</div>
+    <div class="meal1">Cheeseburger
+    <br>
+    <input type="number" class="input" id="food1">
+    <button onclick="buyBurger()">Add</button>
+    </div>
+    <div class="meal2">French Fries
+    <br>
+    <input type="number" class="input" id="food2">
+    <button onclick="buyFries()">Add</button>
+    </div>
+    <div class="meal3">Hot Dog
+    <br>
+    <input type="number" class="input" id="food3">
+    <button onclick="buyHotDog()">Add</button>
+    </div>
+    <div class="meal4">Pizza
+    <br>
+    <input type="number" class="input" id="food4">
+    <button onclick="buyPizza()">Add</button>
+    </div>
+    <div class="meal5">Sandwich
+    <br>
+    <input type="number" class="input" id="food5">
+    <button onclick="buySandwich()" >Add</button>
+    </div>
+    <div class="meal6">Milkshake
+    <br>
+    <input type="number" class="input" id="food6">
+    <button onclick="buyMilkshake()">Add</button>
+    </div>
+    <div class="done">
+    <button class="button2" onclick="allDone()">Proceed to Checkout</button>
+    </div>
+  </body>
+</html>
